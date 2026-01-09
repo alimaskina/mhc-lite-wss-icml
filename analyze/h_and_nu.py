@@ -120,7 +120,7 @@ if __name__ == "__main__":
     n_gt_30 = len([x for x in all_ranges if x > 30])
     print(f"%>30: {n_gt_30}/{n}={n_gt_30 / n}")
     ax.hist(all_ranges, bins=50, edgecolor=BOX_EDGE_COLOR, color=BOX_COLOR, alpha=0.75)
-    ax.set_xlabel("$1/\\nu$")
+    ax.set_xlabel("$\\log(1/\\nu)$")
     ax.set_ylabel("Count")
     ax.yaxis.set_major_formatter(FuncFormatter(lambda x, _: f"{int(x / 1000)}k" if x >= 1000 else f"{int(x)}"))
     fig.savefig(os.path.join(analyze_dir, f"nu_{suffix}.pdf"))
