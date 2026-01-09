@@ -1,6 +1,6 @@
 # mHC-Lite
 
-This repository contains the experiment code for the paper **mHC-lite: You Don’t Need 20 Sinkhorn-Knopp Iterations**. The codebase is adapted from [NanoGPT](https://github.com/karpathy/nanoGPT).
+This repository contains the experiment code for the paper **mHC-lite: You Don’t Need 20 Sinkhorn-Knopp Iterations**. The codebase is adapted from [nanoGPT](https://github.com/karpathy/nanoGPT).
 
 ## Preparation
 
@@ -29,7 +29,7 @@ Data preparation typically takes **~30 minutes** (depending on your machine and 
 
 ## Training
 
-To train a model, run `train.py`. Use `torchrun` to enable distributed training (see the original NanoGPT project for details). You can combine multiple config files to specify the dataset, model scale, and method.
+To train a model, run `train.py`. Use `torchrun` to enable distributed training (see the original nanoGPT project for details). You can combine multiple config files to specify the dataset, model scale, and method.
 
 ### Available config files
 
@@ -89,7 +89,7 @@ This produces the analysis figures in `analysis/`.
 
 ## Acknowledgements
 
-This codebase is adapted from [NanoGPT](https://github.com/karpathy/nanoGPT).
+This codebase is adapted from [nanoGPT](https://github.com/karpathy/nanoGPT).
 
 Our Hyper-Connection implementation is from the [hyper-connections](https://github.com/lucidrains/hyper-connections) library. Note that `hyper-connections` also provides an mHC implementation; however, since it does not exactly match the details described in the mHC paper, we implemented our own version.
 
