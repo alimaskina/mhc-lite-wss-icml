@@ -93,4 +93,4 @@ This codebase is adapted from [nanoGPT](https://github.com/karpathy/nanoGPT).
 
 Our Hyper-Connection implementation is from the [hyper-connections](https://github.com/lucidrains/hyper-connections) library. Note that `hyper-connections` also provides an mHC implementation; however, since it does not exactly match the details described in the mHC paper, we implemented our own version.
 
-We would also like thank [this mHC reproduction](https://github.com/tokenbender/mHC-manifold-constrained-hyper-connections), which (to the best of our knowledge) is the earliest public reproduction of mHC. While we do not directly use code from it, some of our early explorations were inspired by that project.
+We would also like to thank [this mHC reproduction](https://github.com/tokenbender/mHC-manifold-constrained-hyper-connections), which (to the best of our knowledge) is the earliest public reproduction of mHC. While we do not directly use code from it, some of our early explorations were inspired by that project.
