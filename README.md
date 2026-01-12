@@ -1,6 +1,6 @@
 # mHC-lite
 
-This repository contains the experiment code for the paper **mHC-lite: You Don’t Need 20 Sinkhorn-Knopp Iterations**. The codebase is adapted from [nanoGPT](https://github.com/karpathy/nanoGPT).
+This repository contains the experiment code for the paper [**mHC-lite: You Don’t Need 20 Sinkhorn-Knopp Iterations**](https://arxiv.org/abs/2601.05732). The codebase is adapted from [nanoGPT](https://github.com/karpathy/nanoGPT).
 
 ## Preparation
 
