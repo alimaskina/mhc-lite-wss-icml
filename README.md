@@ -85,7 +85,7 @@ After the analysis run, results will be saved to `log_out/infos.pkl`. Then run:
 ```sh
 python -m analyze.h_and_nu
 ```
-This produces the analysis figures in `analysis/`.
+This produces the analysis figures in `analyze/`.
 
 ## Acknowledgements
 
