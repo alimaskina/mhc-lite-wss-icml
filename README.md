@@ -64,7 +64,7 @@ torchrun --standalone --nproc_per_node=8 train.py \
 
 Alternatively, run `run.sh` to reproduce all experiments reported in Table 1 of the paper.
 
-## Analysis
+## Analyze
 
 Run `train_analysis.py` with `config/with_mhc_analysis.py` to perform analysis using a checkpoint. 
 
