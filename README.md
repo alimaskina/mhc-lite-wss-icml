@@ -12,7 +12,7 @@ Hyper-Connections (HC) replace the single Transformer residual stream with multi
 
 - We identify a stream-level failure mode in HC-style residuals: models with multiple symmetric streams can rely on one dominant stream.
 - We show that collapse arises in mechanics and semantics: residual mixing stays near identity, while read/write signal and representation content concentrate in one stream.
-- Using **Learned Stream Scaling (LSS)**—a minimal, near-identity diagonal parameterization at stream expansion—we show that a small controlled symmetry break reduces collapse and improves mHC variants **without changing the core HC operator**.
+- Using **Learned Stream Scaling (LSS)**—a minimal parameterization at stream expansion — we show that a small controlled symmetry break reduces collapse and improves mHC variants without changing the core HC operator.
 
 ## Preparation
 
@@ -37,7 +37,7 @@ cd ../openwebtext
 python prepare.py
 ```
 
-Data preparation typically takes **~30 minutes** (depending on your machine and disk speed).
+Data preparation typically takes ~30 minutes (depending on your machine and disk speed).
 
 ## Training
 
@@ -84,7 +84,7 @@ Training runs create output directories and checkpoints. For analysis, pass `--o
 
 ### Example
 
-To analyze a checkpoint from a **small** model trained on **OpenWebText**, set `--out_dir` to `out-owt-small-mhc`:
+To analyze a checkpoint from a small model trained on **OpenWebText**, set `--out_dir` to `out-owt-small-mhc`:
 
 ```sh
 python train_analysis.py \
